@@ -1,1 +1,18 @@
+title {
+    font-size: 48px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+    margin-top: 50px;
+}
 
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    -ms-ime-align: center;
+}
+
+xc-image{
+    width: 400px;
+    height: auto;
+}
