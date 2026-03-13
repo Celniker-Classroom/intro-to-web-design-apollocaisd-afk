@@ -13,6 +13,11 @@ body{
 }
 
 #xc-image{
-    width: 200px;
+    width: 300px;
+    height: auto;
+}
+
+#violint{
+    width: 300px;
     height: auto;
 }
