@@ -48,8 +48,8 @@ p{
 }
 
 .big_shape{
-    width: 1000px;
-    height: 200px;
+    width: 50vw;
+    height: 20vw;
     background-color: lightblue;
     margin-top: 40px;
     border-radius: 25px;
