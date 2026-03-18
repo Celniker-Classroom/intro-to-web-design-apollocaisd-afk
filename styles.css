@@ -39,6 +39,12 @@ p{
     width: 800px; 
 }
 
+.container img{
+    width: 20%;
+    height: auto;
+    object-fit: cover;
+}
+
 #xc-image{
     width: 300px;
     height: auto;
@@ -51,11 +57,13 @@ p{
 
 .big_shape{
     width: 50vw;
-    height: 20vw;
+    height: calc(600px - 10vw);
     background-color: lightblue;
     margin-top: 2vw;
     border-radius: 2vw;
     padding: 1vw;
+    min-height: 100px;
+    max-height: 400px;
 }
 
 .hover-link{
@@ -70,4 +78,9 @@ p{
     font-weight: bold;
 }
 
-#
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: black;
+}
