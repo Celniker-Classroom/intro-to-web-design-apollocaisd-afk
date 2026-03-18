@@ -24,8 +24,10 @@ h3{
 
 body{
     background-color: cornflowerblue;
+    line-height: 1.5;
     text-align: left;
     margin-left: 40px;
+    font-family: Arial, sans-serif;
 }
 
 p{
@@ -51,12 +53,21 @@ p{
     width: 50vw;
     height: 20vw;
     background-color: lightblue;
-    margin-top: 40px;
-    border-radius: 25px;
+    margin-top: 2vw;
+    border-radius: 2vw;
+    padding: 1vw;
 }
 
 .hover-link{
-    color: white;
+    color: blue;
     text-decoration: none;
+    font-weight: normal;
+}
+
+.hover-link:hover{
+    color: blue;
+    text-decoration: underline;
     font-weight: bold;
 }
+
+#
