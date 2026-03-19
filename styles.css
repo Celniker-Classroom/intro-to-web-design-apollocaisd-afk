@@ -148,3 +148,63 @@ p{
     margin-bottom: 20px;
     margin-right: 2.5%;
 }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    width: 1200px; 
+    height: auto;
+  }
+}
+
+.container-small{
+    float: left;
+    margin-left: 15%;
+    width: 70vw;
+    margin: 0 auto;
+    height: auto;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1100px) {
+.sidebar{
+    display: none;
+}
+.sidebar h3{
+    display: none;
+}
+.sidebar p{
+    display: none;
+}
+}
+
+@media screen and (min-width: 1100px) {
+  .sidebar {
+    width: 240px; 
+    height: auto;
+  }
+}
+
+.sidebar{
+    float: right;
+    margin-right: 5%;
+    width: 15vw;
+    height: auto;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar text{
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+    word-wrap: break-word; 
+    width: 90%;
+    height: auto;
+}
